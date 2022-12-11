@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+/*---------------------------------header--------------------------------*/
+
+header {
+    display: flex;
+    background-color: rgba(255, 163, 179, 0.391);
+}
+
+header div {
+    width: 60%;
+}
+
+header div img {
+    width: 8%;
+    border-radius: 20%;
+    padding: 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navegacion {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navegacion li a {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20%;
+}
+
+.navegacion li a:hover {
+    background-color: blueviolet;
+}
+
+nav {
+    width: 40%;
+}
+
+
+/*---------------------------------body--------------------------------*/
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    background-color: bisque;
+    width: 400px;
+    border-radius: 40%;
+    gap: 10px;
+    margin: 50px;
+    position: relative;
+    left: 500px;
+
+}
+
+.inicioDivImg {
+    width: 900px;
+    height: 800px;
+    position: relative;
+    left: 300px;
+    margin: 10px;
+}
+
+.inicioImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+
+}
+
+.tituloTexto {
+    position: relative;
+    width: 270px;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 5px;
+    position: absolute;
+    top: 160px;
+    left: 610px;
+
+}
+
+
+h3 {
+    font-size: 40px;
+}
+
+.divNosotros{
+    width: 100%;
+    height: 100%;
+}
+
+.divImagenNosotros {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 90px;
+    margin-left: 100px;
+    margin-top: 80px
+    
+}
+
+.imagenNosotros {
+    width: 100%;
+    height: 100%;
+    right: 100px;
+    border-radius: 5%;
+    border: 2px solid rgba(229, 78, 78, 0.757);
+
+}
+
+.textoNosotros {
+    width: 50%;
+    left: 45%;
+    top: 40%;
+    position: absolute;
+    text-align: center;
+}
+
+
+
+.form_imagen_contactos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 110px;
+}
+
+form {
+    width: 700px;
+    padding: 30px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.div_imagen{
+    width: 300px;
+    height: 300px;
+}
+
+.imgContacto{
+    width: 100%;
+    height: 100%;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px
+}
+
+.galeria img {
+    width: 35%;
+    opacity: 0.5;
+    border-radius: 15px;
+
+}
+
+.galeria img:hover {
+    opacity: 1;
+    border: 2px solid pink;
+}
+
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen img {
+    width: 80%;
+    height: 80%;
+    border-radius: 200px;
+
+}
+
+
+.receta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin-bottom: 20px;
+
+}
+
+.receta h3 {
+    width: 150px;
+    height: 60px;
+    border: 2px groove blueviolet;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+
+.indredientes {
+    font-size: 20px;
+    margin: 10px;
+    position: relative;
+    top: 60px;
+    right: 180px;
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+}
+
+.procedimiento {
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+    right: 250px;
+    width: 150px;
+    height: 30px;
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+}
+
+.receta img {
+    width: 30%;
+    height: 30%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.receta h3 {
+    margin: 5px;
+}
+
+.receta ul {
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top: 100px;
+    right: 300px;
+    list-style-type: circle;
+
+}
+
+.recetaOl {
+    width: 700px;
+    position: relative;
+    left: 810px;
+    bottom: 200px
+}
+
+/*---------------------------------footer--------------------------------*/
+
+footer {
+    display: flex;
+    background-color: rgba(255, 163, 179, 0.391)
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer div {
+    width: 80%;
+    font-size: 20px;
+}
+
+.redesSociales {
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+i {
+    font-size: 50px;
+}

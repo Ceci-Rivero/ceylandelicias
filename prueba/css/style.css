@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.grillaTiramisu1 {
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    grid-template-rows: 20% 10% 80%;
+    grid-template-areas:"imagen   titulo_receta   titulo_receta"
+                        "imagen   ingredientes    procedimiento"
+                        "imagen   ingrDetallado   procDetallado";
+    margin: 10px;
+
+}
+
+.tituloReceta {
+    grid-area: titulo_receta;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.imgReceta {
+    grid-area: imagen;
+
+}
+
+div img {
+    width: 250px;
+    margin: 20px;
+}
+
+.ingredientes {
+    grid-area: ingredientes;
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.procedimiento {
+    grid-area: procedimiento;
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.ingrDetallado {
+    grid-area: ingrDetallado;
+}
+
+.procDetallado {
+    grid-area: procDetallado;
+}
+
+.grillaTiramisu2 {
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    grid-template-rows: 20% 10% 80%;
+    grid-template-areas: "imagen   titulo_receta          titulo_receta"
+        "imagen   ingredientes    procedimiento"
+        "imagen   ingrDetallado   procDetallado";
+    margin: 10px;
+
+}
+
+.tituloReceta {
+    grid-area: titulo_receta;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.imgReceta {
+    grid-area: imagen;
+
+}
+
+div img {
+    width: 250px;
+    margin: 20px;
+}
+
+.ingredientes {
+    grid-area: ingredientes;
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.procedimiento {
+    grid-area: procedimiento;
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.ingrDetallado {
+    grid-area: ingrDetallado;
+}
+
+.procDetallado {
+    grid-area: procDetallado;
+}
