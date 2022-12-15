@@ -10,6 +10,7 @@
 header {
     display: flex;
     background-color: rgba(255, 163, 179, 0.391);
+    height: 50px;
 }
 
 header div {
@@ -17,9 +18,8 @@ header div {
 }
 
 header div img {
-    width: 8%;
+    width: 15%;
     border-radius: 20%;
-    padding: 1%;
 }
 
 a {
@@ -31,14 +31,15 @@ a {
     flex-wrap: wrap;
     height: 100%;
     justify-content: space-around;
-    align-items: center;
+    align-items: end;
     list-style-type: none;
 }
 
 .navegacion li a {
     padding: 10px;
-    background-color: rgb(255, 255, 255);
     border-radius: 20%;
+    font-size: 21px;
+    
 }
 
 .navegacion li a:hover {
@@ -99,7 +100,7 @@ h3 {
     font-size: 40px;
 }
 
-.divNosotros{
+.divNosotros {
     width: 100%;
     height: 100%;
 }
@@ -112,7 +113,6 @@ h3 {
     margin-bottom: 90px;
     margin-left: 100px;
     margin-top: 80px
-    
 }
 
 .imagenNosotros {
@@ -151,12 +151,12 @@ form {
     text-align: center;
 }
 
-.div_imagen{
+.div_imagen {
     width: 300px;
     height: 300px;
 }
 
-.imgContacto{
+.imgContacto {
     width: 100%;
     height: 100%;
     margin-left: 60px;
@@ -197,73 +197,114 @@ form {
 
 }
 
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
 
-.receta {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    overflow: auto;
-    margin-bottom: 20px;
+.grillaTiramisu1 {
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    grid-template-rows: 20% 10% 80%;
+    grid-template-areas: "imagen   titulo_receta   titulo_receta"
+        "imagen   ingredientes    procedimiento"
+        "imagen   ingrDetallado   procDetallado";
+    margin: 10px;
 
 }
 
-.receta h3 {
-    width: 150px;
-    height: 60px;
-    border: 2px groove blueviolet;
+.tituloReceta {
+    grid-area: titulo_receta;
     text-align: center;
-    border-radius: 10px;
     font-size: 30px;
 
 }
 
-.indredientes {
-    font-size: 20px;
-    margin: 10px;
-    position: relative;
-    top: 60px;
-    right: 180px;
-    text-decoration-line: underline;
-    text-decoration-color: blueviolet;
+.imgReceta {
+    grid-area: imagen;
+
+}
+
+div img {
+    width: 250px;
+    margin: 20px;
+}
+
+.ingredientes {
+    grid-area: ingredientes;
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
+
 }
 
 .procedimiento {
-    font-size: 20px;
-    position: relative;
-    top: 70px;
-    right: 250px;
-    width: 150px;
-    height: 30px;
-    text-decoration-line: underline;
-    text-decoration-color: blueviolet;
+    grid-area: procedimiento;
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
+
 }
 
-.receta img {
-    width: 30%;
-    height: 30%;
+.ingrDetallado {
+    grid-area: ingrDetallado;
+}
+
+.procDetallado {
+    grid-area: procDetallado;
+}
+
+.grillaTiramisu2 {
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    grid-template-rows: 20% 10% 80%;
+    grid-template-areas: "imagen   titulo_receta          titulo_receta"
+        "imagen   ingredientes    procedimiento"
+        "imagen   ingrDetallado   procDetallado";
+    margin: 10px;
+
+}
+
+.tituloReceta {
+    grid-area: titulo_receta;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.imgReceta {
+    grid-area: imagen;
+
+}
+
+div img {
+    width: 250px;
     margin: 20px;
-    border-radius: 10px;
+    
 }
 
-.receta h3 {
-    margin: 5px;
-}
-
-.receta ul {
-    width: 220px;
-    font-size: 15px;
-    position: relative;
-    top: 100px;
-    right: 300px;
-    list-style-type: circle;
+.ingredientes {
+    grid-area: ingredientes;
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
 
 }
 
-.recetaOl {
-    width: 700px;
-    position: relative;
-    left: 810px;
-    bottom: 200px
+.procedimiento {
+    grid-area: procedimiento;
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.ingrDetallado {
+    grid-area: ingrDetallado;
+}
+
+.procDetallado {
+    grid-area: procDetallado;
 }
 
 /*---------------------------------footer--------------------------------*/
