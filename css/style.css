@@ -10,7 +10,7 @@
 header {
     display: flex;
     background-color: rgba(255, 163, 179, 0.391);
-    height: 150px;
+    height: 120px;
 }
 
 header div {
@@ -33,7 +33,7 @@ header div {
 }
 
 .imagenLogo {
-    width: 15%;
+    width: 10%;
     border-radius: 20%;
     margin-left: 78px;
     
@@ -47,8 +47,8 @@ a {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
-    justify-content:space-around;
-    align-items: flex-end;
+    margin-top: 60px;
+    justify-content: space-between;
     list-style-type: none;
 }
 
@@ -190,7 +190,7 @@ form {
 }
 
 .galeria img {
-    width: 35%;
+    width: 25%;
     opacity: 0.5;
     border-radius: 15px;
 
